@@ -1,0 +1,14 @@
+.without-visible
+{
+    display: none;
+}
+.underwater_hotel
+{
+    background: url("img/underwater-hotel.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+}
+footer
+{
+    background-color: rgb(58, 48, 48);
+}
