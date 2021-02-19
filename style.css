@@ -3,6 +3,15 @@ body
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
+ul
+{
+    list-style: none;
+}
+
+a
+{
+text-decoration: none;
+}
 
 .without-visible
 {
@@ -16,7 +25,10 @@ body
 }
 .main-footer
 {
-    background-color: rgb(58, 48, 48);
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
 }
 
 .main-header{
@@ -31,11 +43,10 @@ body
 .site-navigation
 {
     display: flex;
-    list-style: none;
     justify-content: center;
 }
 .site-navigation li{
-    padding-left:2%;
+    padding-left:4%;
 }
 .main-header-nav a img
 {
@@ -80,4 +91,82 @@ body
 {
     display: flex;
     margin: auto;
+    margin: 0 5%;
+}
+
+.reviews-item
+{
+    padding: 0 5%;
+}
+
+.reviews h2
+{
+    text-align: center;
+}
+
+.promo
+{
+    background-color: rgb(240, 236, 236);
+    text-align: center;
+    display: flex;
+}
+
+.promo-shape
+{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.promo-shape dt
+{
+    font-weight: bold;
+    padding-top: 5%;
+}
+.promo a
+{
+    margin-bottom: 10%;
+    background-color: orange;
+    text-align: middle;
+    padding:15px 60px;
+    display: inline-block;
+}
+
+.site-navigation-bottom li a
+{
+    color:white;
+}
+
+.site-navigation-bottom
+{
+display: flex;
+justify-content: center;
+border-bottom: 2px solid white;
+padding: 2% 0;
+margin: 0 6%;
+}
+.site-navigation-bottom li
+{
+    padding-left: 4%;
+}
+
+.social_media_list
+{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    
+}
+.main-footer a img
+{
+    padding-top: 2%;
+}
+.social_media_list li
+{
+    margin-left: 1%;
+    background-color: whitesmoke;
+    width: 50px;
+    padding: 10px 0;
 }
