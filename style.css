@@ -111,7 +111,7 @@ text-decoration: none;
 {
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    flex-basis: 25%;
 }
 
 .reviews h2
