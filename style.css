@@ -89,6 +89,7 @@ text-decoration: none;
 
 .reviews
 {
+    border: 3px dotted pink;
     width: 100%;
 }
 
@@ -96,18 +97,17 @@ text-decoration: none;
 {
     display: flex;
     margin: auto;
-   padding: 0 5%;
+   /*padding: 0 5%;*/
     width: 100%;
-}
-
-.reviews-list:last-child
-{
-    padding: 0;
 }
 
 .reviews-item
 {
     padding: 0 5%;
+}
+.reviews-item:last-child
+{
+    padding: 0;
 }
 
 .reviews h2
