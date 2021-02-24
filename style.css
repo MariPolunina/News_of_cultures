@@ -87,6 +87,11 @@ text-decoration: none;
     left: 35%;
 }
 
+.reviews
+{
+    width: 100%;
+}
+
 .reviews-list
 {
     display: flex;
