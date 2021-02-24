@@ -91,7 +91,13 @@ text-decoration: none;
 {
     display: flex;
     margin: auto;
-    margin: 0 5%;
+   padding: 0 5%;
+    width: 100%;
+}
+
+.reviews-list:last-child
+{
+    padding: 0;
 }
 
 .reviews-item
@@ -109,21 +115,62 @@ text-decoration: none;
     background-color: rgb(240, 236, 236);
     text-align: center;
     display: flex;
+    height: 100%;
+
+    position: relative;
+    width: 100%;
+}
+
+.promo-shape::before
+{
+    content: " ";
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.promo-shape::after
+{
+    content: " ";
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    bottom :0;
 }
 
 .promo-shape
 {
     background-color: white;
     height: 100%;
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-radius: 50%;
+    text-align: center;
+}
+
+.promo-text
+{
+    width: 80%;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo-shape h2
+{
+    margin-top:10%;
 }
 
 .promo-shape dt
 {
     font-weight: bold;
     padding-top: 5%;
+    padding-bottom: 2%;
 }
 .promo a
 {
